@@ -73,7 +73,7 @@ const hungry = ["Thanks", "A", "Lot", "Now", "I", "Am", "Hungry"]
 
 // Question 15B
 for (word of hungry) {
-    let yum = document.createElement(`span`);
-    yum.innerText = `${word} `;
-    document.body.append(yum);
+    let span = document.createElement(`span`);
+    span.innerText = `${word} `;
+    document.body.append(span);
 }
